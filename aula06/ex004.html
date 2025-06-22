@@ -17,6 +17,39 @@
         document.write(`Olá ${nome}, você sabia que o seu nome tem ${nome.length} letras? <br/>`)
         document.write(`${nome} você sabia que o seu nome em maiúsculas fica assim: ${nome.toUpperCase()} <br/>`)
         document.write(`${nome} e você sabia que o seu nome em minúsculas fica assim: ${nome.toLowerCase()}`)
+
+        /* Nesse documentos utilizamos `` e ${} para mantermos mais organizado.
+        e primeiramente atribuimos um nome a uma variável, o nome o usuário irá inserir. assim que ele inserir qualquer nome, será vinculado a essa variável.
+        Logo em seguida utilizamos um novo comando, o document.write(``) que foi utilizado para mostrar um texto na tela do navegado assim que o usuário digitasse o nome dele.
+        
+        No primeiro caso, utilizamos um comando ${nome.length} que mostrará a quantidade de letrar que tem no nome do usuário, então ele contará as letras e aparecerá no texto, ex: Daniel tem 6 letras
+        No caso seguinte, utilizamos um comando que deixará o texto em MAIÚSCULO e o outro para deixar o texto em minúsculo.
+        
+        para deixar o texto MAIÚSCULO: ${nome.toUpperCase() sempre lembrando de inserir o parenteses no final.}
+        para deixar o texto minúsculo: ${nome.toLowerCase() sempre lembrando de inserir o parenteses no final.}
+
+        também fizemos um exemplo para utilizarmos centavos na linha de código
+        
+        Caso atribuamos um numero a uma variavel como por exemplo 
+        n1 = 1500.5
+
+        Para inserirmos mais uma casa decimal, devemos inserir o comando.
+        n1.toFixed(2)
+        > 1500.50
+
+        Agora para inserirmos uma virgula no lugar do ponto devemos inserir o comando.
+        n1.toFixed(2).replace('.' ; ',').
+        > 1500,50
+
+        Agora para inserirmos os simbolos de real, dollar, euro, devemos utilizar o seguinte comando.
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) ->  Real (R$)
+        > R$ 1500,50
+
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) -> Dollar (US$)
+        > US$ 1.500,50
+
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) -> Euro (€)
+        > € 1,500.50  */
     </script>
 </body>
-</html>
+</html> 

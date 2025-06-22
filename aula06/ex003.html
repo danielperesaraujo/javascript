@@ -22,6 +22,7 @@
     </style>
   </head>
   <body>
+    
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição!</p>
     <script>
@@ -29,6 +30,17 @@
      var n2 = Number(window.prompt(" Agora digite outro número: "));
      var s = n1 + n2
      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}` )
+
+     /* nesse exemplo, utilizamos duas variáveis que tiveram a atibuição de dois numeros. Lembrando que caso se inserirmos um comando window.prompt(" Digite um número ") o que o usuário digitar será uma string e não um número. e isso fará com que a soma da variável 's' não e certo, caso não convertamos em um número será a união dos números por exemplo 1+1=11. Para que possamos converter essa string em um número, devemos utilizar o comando 
+
+      Number.parseInt(n) -> para numero inteiro
+      Number.parseFloat(n) ->  para numero real
+
+      E para convertermos um número em uma string devemos utilizar o comando
+
+      String(n)
+      n.toString()
+      */
     </script>
   </body>
 </html>

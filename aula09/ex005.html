@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgb(148, 148, 236);
+            color: white;
+            font: normal 18pt arial;
+        }
+        h1 {
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+        }
+        p {
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+        }
+        div {
+            padding: 2px;
+            background-color: rgb(192, 0, 0);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+            width: 170px;
+            text-align: center;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+            border-radius: 10px;
+        }
+        strong {
+            color: rgb(255, 238, 0);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o Resultado</p>
+    <p>Aprendendo a utilizar o <strong>DOM</strong> em <strong>JavaScript</strong></p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        
+        /*
+        var d = window.document.getElementById('msg')
+        d.innerText = 'Estou aguardando...'
+        d.style.background = 'green'
+        */
+
+    </script>
+</body>
+</html>

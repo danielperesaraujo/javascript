@@ -28,6 +28,14 @@
       var nome = window.prompt(" Qual é o seu nome? ");
       window.alert(" É um grande prazer em te conhecer ," + nome + "!");
       window.alert(`é um prazer em te conhecer ${nome}`)
+
+      /* utilizamos uma variavel 'nome' e inserimos um campo de prompt para que o usuário possa digitar o nome dele. Quando ele digitar, automaicamente o nome desse usuário será atribuido a esse campo 'nome'
+      Logo em seguida ele mostrará uma janela de 'alerta' com o texto inserido (  É um grande prazer em te conhecer ," + nome + "!" ) 
+      Em seguida ele mostrará uma nova janela de 'alerta' com o texto inserido ( é um prazer em te conhecer ${nome} )
+
+      um detalhe muito importante é que no primeiro exemplo, nós usamos um window.alert("") -> serve para inserirmos a variavel da forma que foi inserida com ( + nome + ) isso pode deixar o código um pouco bagunçado.
+      Ja no segundo exemplo, utilizamos um window.alert(``) -> já nesse exemplo, utilizamos o window.alert(``) -> Serve para podermos utilizar o ${nome} isso conseguimos manter nosso código mais organizado. 
+      */
     </script>
   </body>
 </html>
