@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #353575;
+    border-color: #ffffff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#box {
+    background-color: #ffffff;
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px #0000007a;
+}
+
+.nasc_sex {
+    text-align: left;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.sex {
+    padding-top: 20px;
+}
+
+.button_verificar {
+    padding-top: 20px;
+}
+
+footer {
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+
