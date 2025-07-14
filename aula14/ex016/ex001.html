@@ -8,15 +8,21 @@
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Contagem</h1>
     </header>
     <section>
-        <div>
-            testando...
+        <div class="contagem">
+            <p class="inicio">Inicio da contagem: <input type="number" name="inicio" id="txti" placeholder="0"></p>
+            <p class="fim">Fim da contagem: <input type="number" name="fim" id="txtf" placeholder="100..."></p>
+            <p class="passo">Passo: <input type="number" name="passo" id="txtp" placeholder="2"></p>
+        </div>
+            
+        <div class="botao">
+            <input type="button" value="Contar" onclick="contar()">
         </div>
 
-        <div>
-            Olá!
+        <div class="contagem" id="res">
+            <p>Contando...</p>
         </div>
     </section>
     <footer>
