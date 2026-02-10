@@ -20,9 +20,11 @@
             var res = window.document.getElementById('res')
             var vel = Number(txtv.value)
             res.innerHTML += `<p>A velocidade do seu veículo foi de <strong>${vel} km/h</strong></p>`
-                if (vel > 60) {
-                    res.innerHTML += `Você ultrapassou o limite de velocidade da via. <strong>MULTADO</strong>`
-                }
+            if (vel > 60) {
+                res.innerHTML += `Você ultrapassou o limite de velocidade da via. <strong>MULTADO</strong>`
+            }else {
+                res.innerHTML += `Você está dentro do limite de velocidade. <strong>PARABÉNS</strong>`
+            }
             res.innerHTML += `<p>Dirija sempre com muito cuidado e segurança</p>`
         }
     </script>
